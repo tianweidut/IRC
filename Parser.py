@@ -1,5 +1,5 @@
 #!/usr/bin/python
-'''this module used to parse nmap's xml report'''
+'''thistmodule used to parse nmap's xml report'''
 __author__ =  'yunshu(wustyunshu@hotmail.com)'
 __version__=  '0.2'
 
