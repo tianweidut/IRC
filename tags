@@ -1,0 +1,193 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CHANNEL	IRCFound.py	/^CHANNEL = '#acx' $/;"	v
+ConnectTIMEOUT	IRCFound.py	/^ConnectTIMEOUT = 5.0          #默认超时时间$/;"	v
+GeneralProxyError	socks.py	/^class GeneralProxyError(ProxyError):$/;"	c	inherits:ProxyError
+HOSTNAME	IRCFound.py	/^HOSTNAME = 'a23'$/;"	v
+HTTPError	socks.py	/^class HTTPError(ProxyError):$/;"	c	inherits:ProxyError
+Host	Host.py	/^class Host:$/;"	c	inherits:
+Host	Parser.py	/^import Host$/;"	i
+IPCNT	IRCFound.py	/^IPCNT = 0                   #IP池数量$/;"	v
+LONGTIMEOUT	IRCFound.py	/^LONGTIMEOUT = 30            #readbuf 时间 秒$/;"	v
+LoadAttributes	MultiIRCFound.py	/^    def LoadAttributes(self):$/;"	m	class:MyForm	access:public
+MaxTryNum	IRCFound.py	/^MaxTryNum = 1                  #连接测试次数$/;"	v
+MyForm	MultiIRCFound.py	/^class MyForm(QMainWindow):$/;"	c	inherits:QMainWindow
+MySession	Session.py	/^	MySession = { 'finish_time': dom.getElementsByTagName('finished')[0].getAttribute('timestr'), 'nmap_version' : '4.79', 'scan_args' : '-sS -sV -A -T4', 'start_time' : dom.getElementsByTagName('nmaprun')[0].getAttribute('startstr'), 'total_hosts' : '1', 'up_hosts' : '1', 'down_hosts' : '0' }$/;"	v
+NICKNAME	IRCFound.py	/^NICKNAME = 'too009'        #登陆随机信息$/;"	v
+NMAP_FILENAME	nmapParse.py	/^NMAP_FILENAME = 'tianwei.xml'$/;"	v
+NmapParse	nmapParse.py	/^class NmapParse(QThread):               #使用PyQt中的线程代替Python本身的线程       $/;"	c	inherits:QThread
+PROXY_TYPE_HTTP	socks.py	/^PROXY_TYPE_HTTP = 3$/;"	v
+PROXY_TYPE_HTTP_IRC	IRCFound.py	/^PROXY_TYPE_HTTP_IRC = 3$/;"	v
+PROXY_TYPE_SOCKS4	socks.py	/^PROXY_TYPE_SOCKS4 = 1$/;"	v
+PROXY_TYPE_SOCKS4_IRC	IRCFound.py	/^PROXY_TYPE_SOCKS4_IRC = 1       #IRC socks代理类型$/;"	v
+PROXY_TYPE_SOCKS5	socks.py	/^PROXY_TYPE_SOCKS5 = 2$/;"	v
+PROXY_TYPE_SOCKS5_IRC	IRCFound.py	/^PROXY_TYPE_SOCKS5_IRC = 2$/;"	v
+Parser	MultiIRCFound.py	/^import Parser           #nmap XML解析$/;"	i
+Parser	Parser.py	/^class Parser:$/;"	c	inherits:
+ProxyError	socks.py	/^class ProxyError(Exception):$/;"	c	inherits:Exception
+QtCore	irc_graphic.py	/^from PyQt4 import QtCore, QtGui$/;"	i
+QtGui	irc_graphic.py	/^from PyQt4 import QtCore, QtGui$/;"	i
+REALNAME	IRCFound.py	/^REALNAME = 'a233'$/;"	v
+RecvSIZE	IRCFound.py	/^RecvSIZE = 1024 $/;"	v
+SERVERNAME	IRCFound.py	/^SERVERNAME ='a23'$/;"	v
+SOCK_PROXY_TYPE	IRCFound.py	/^SOCK_PROXY_TYPE = None               #代理类型：整型$/;"	v
+SOCK_PROXY_addr	IRCFound.py	/^SOCK_PROXY_addr = None              #代理网址或DNS：String类型$/;"	v
+SOCK_PROXY_password	IRCFound.py	/^SOCK_PROXY_password = None                  #代理密码$/;"	v
+SOCK_PROXY_port	IRCFound.py	/^SOCK_PROXY_port = None                      #代理端口：整形,默认为1080\/8080$/;"	v
+SOCK_PROXY_rdns	IRCFound.py	/^SOCK_PROXY_rdns = True                      #Should DNS queries be preformed on the remote side$/;"	v
+SOCK_PROXY_username	IRCFound.py	/^SOCK_PROXY_username = None                  #代理用户名$/;"	v
+Service	Host.py	/^import Service$/;"	i
+Service	Service.py	/^class Service:$/;"	c	inherits:
+Session	Parser.py	/^import Session$/;"	i
+Session	Session.py	/^class Session:$/;"	c	inherits:
+Socks4Error	socks.py	/^class Socks4Error(ProxyError):$/;"	c	inherits:ProxyError
+Socks5AuthError	socks.py	/^class Socks5AuthError(ProxyError):$/;"	c	inherits:ProxyError
+Socks5Error	socks.py	/^class Socks5Error(ProxyError):$/;"	c	inherits:ProxyError
+USERNAME	IRCFound.py	/^USERNAME = 'a23'$/;"	v
+Ui_IRC	MultiIRCFound.py	/^from irc_graphic import Ui_IRC  #图形界面导入$/;"	i
+Ui_IRC	irc_graphic.py	/^class Ui_IRC(object):$/;"	c	inherits:object
+Worker	IRCFound.py	/^class Worker(QThread):  #使用PyQt中的线程代替Python本身的线程       $/;"	c	inherits:QThread
+XML	MultiIRCFound.py	/^import Parser           #nmap XML解析$/;"	i
+__author__	Host.py	/^__author__ =  'yunshu(wustyunshu@hotmail.com)'$/;"	v
+__author__	Parser.py	/^__author__ =  'yunshu(wustyunshu@hotmail.com)'$/;"	v
+__author__	Service.py	/^__author__ =  'yunshu(wustyunshu@hotmail.com)'$/;"	v
+__author__	Session.py	/^__author__ =  'yunshu(wustyunshu@hotmail.com)'$/;"	v
+__del__	IRCFound.py	/^    def __del__(self):$/;"	m	class:Worker	file:	access:private
+__del__	nmapParse.py	/^    def __del__(self):$/;"	m	class:NmapParse	file:	access:private
+__init__	Host.py	/^	def __init__( self, HostNode ):$/;"	m	class:Host	access:public
+__init__	IRCFound.py	/^    def __init__(self,parent=None):$/;"	m	class:Worker	access:public
+__init__	MultiIRCFound.py	/^    def __init__(self,parent=None):$/;"	m	class:MyForm	access:public
+__init__	Parser.py	/^	def __init__( self, FileName ):$/;"	m	class:Parser	access:public
+__init__	Service.py	/^	def __init__( self, ServiceNode ):$/;"	m	class:Service	access:public
+__init__	Session.py	/^	def __init__( self, SessionHT ):$/;"	m	class:Session	access:public
+__init__	nmapParse.py	/^    def __init__(self,parent=None):$/;"	m	class:NmapParse	access:public
+__init__	socks.py	/^	def __init__(self, family=socket.AF_INET, type=socket.SOCK_STREAM, proto=0, _sock=None):$/;"	m	class:socksocket	access:public
+__init__	socks.py	/^	def __init__(self, value):$/;"	m	class:GeneralProxyError	access:public
+__init__	socks.py	/^	def __init__(self, value):$/;"	m	class:HTTPError	access:public
+__init__	socks.py	/^	def __init__(self, value):$/;"	m	class:ProxyError	access:public
+__init__	socks.py	/^	def __init__(self, value):$/;"	m	class:Socks4Error	access:public
+__init__	socks.py	/^	def __init__(self, value):$/;"	m	class:Socks5AuthError	access:public
+__init__	socks.py	/^	def __init__(self, value):$/;"	m	class:Socks5Error	access:public
+__negotiatehttp	socks.py	/^	def __negotiatehttp(self,destaddr,destport):$/;"	m	class:socksocket	file:	access:private
+__negotiatesocks4	socks.py	/^	def __negotiatesocks4(self,destaddr,destport):$/;"	m	class:socksocket	file:	access:private
+__negotiatesocks5	socks.py	/^	def __negotiatesocks5(self,destaddr,destport):$/;"	m	class:socksocket	file:	access:private
+__recvall	socks.py	/^	def __recvall(self, bytes):$/;"	m	class:socksocket	file:	access:private
+__str__	socks.py	/^	def __str__(self):$/;"	m	class:GeneralProxyError	file:	access:private
+__str__	socks.py	/^	def __str__(self):$/;"	m	class:HTTPError	file:	access:private
+__str__	socks.py	/^	def __str__(self):$/;"	m	class:ProxyError	file:	access:private
+__str__	socks.py	/^	def __str__(self):$/;"	m	class:Socks4Error	file:	access:private
+__str__	socks.py	/^	def __str__(self):$/;"	m	class:Socks5AuthError	file:	access:private
+__str__	socks.py	/^	def __str__(self):$/;"	m	class:Socks5Error	file:	access:private
+__version__	Host.py	/^__version__=  '0.2'$/;"	v
+__version__	Parser.py	/^__version__=  '0.2'$/;"	v
+__version__	Service.py	/^__version__=  '0.2'$/;"	v
+__version__	Session.py	/^__version__=  '0.2'$/;"	v
+_defaultproxy	socks.py	/^_defaultproxy = None$/;"	v
+_generalerrors	socks.py	/^_generalerrors = ("success",$/;"	v
+_orgsocket	socks.py	/^_orgsocket = socket.socket$/;"	v
+_socks4errors	socks.py	/^_socks4errors = ("request granted",$/;"	v
+_socks5autherrors	socks.py	/^_socks5autherrors = ("succeeded",$/;"	v
+_socks5errors	socks.py	/^_socks5errors = ("succeeded",$/;"	v
+all_hosts	Parser.py	/^	def all_hosts( self, status = '' ):$/;"	m	class:Parser	access:public
+all_ips	Parser.py	/^	def all_ips( self, status = '' ):$/;"	m	class:Parser	access:public
+app	MultiIRCFound.py	/^    app = QApplication(sys.argv)$/;"	v	class:MyForm
+connect	socks.py	/^	def connect(self,destpair):$/;"	m	class:socksocket	access:public
+dom	Host.py	/^	dom = xml.dom.minidom.parse('i.xml')$/;"	v	class:Host
+dom	Host.py	/^import xml.dom.minidom$/;"	i
+dom	Parser.py	/^import xml.dom.minidom$/;"	i
+dom	Service.py	/^	dom = xml.dom.minidom.parse('i.xml')$/;"	v
+dom	Service.py	/^import xml.dom.minidom$/;"	i
+dom	Session.py	/^	dom = xml.dom.minidom.parse('i.xml')$/;"	v
+dom	Session.py	/^import xml.dom.minidom$/;"	i
+emitFinished	MultiIRCFound.py	/^    def emitFinished(self):$/;"	m	class:MyForm	access:public
+finishEmit	IRCFound.py	/^    def finishEmit(self):$/;"	m	class:Worker	access:public
+get_host	Parser.py	/^	def get_host( self, ipaddr ):$/;"	m	class:Parser	access:public
+get_ports	Host.py	/^	def get_ports( self, protocol, state ):$/;"	m	class:Host	access:public
+get_service	Host.py	/^	def get_service( self, protocol, port ):$/;"	m	class:Host	access:public
+get_session	Parser.py	/^	def get_session( self ):$/;"	m	class:Parser	access:public
+getpeername	socks.py	/^	def getpeername(self):$/;"	m	class:socksocket	access:public
+getproxypeername	socks.py	/^	def getproxypeername(self):$/;"	m	class:socksocket	access:public
+getproxysockname	socks.py	/^	def getproxysockname(self):$/;"	m	class:socksocket	access:public
+h	Host.py	/^	h = Host( host_node )$/;"	v	class:Host
+host_node	Host.py	/^	host_node = dom.getElementsByTagName('host')[0]$/;"	v	class:Host
+host_nodes	Host.py	/^	host_nodes = dom.getElementsByTagName('host')$/;"	v	class:Host
+inttoip	MultiIRCFound.py	/^    def inttoip(self,ipint):$/;"	m	class:MyForm	access:public
+ipALLListParse	MultiIRCFound.py	/^    def ipALLListParse(self):$/;"	m	class:MyForm	access:public
+ipALLListParseSimple	MultiIRCFound.py	/^    def ipALLListParseSimple(self):     #ip聚合 第二个版本$/;"	m	class:MyForm	access:public
+ipParse	MultiIRCFound.py	/^    def ipParse(self):$/;"	m	class:MyForm	access:public
+iptoint	MultiIRCFound.py	/^    def iptoint(self,ipstr):$/;"	m	class:MyForm	access:public
+ircFind	IRCFound.py	/^    def ircFind(self,HOST):$/;"	m	class:Worker	access:public
+irccnt	IRCFound.py	/^irccnt = 3                 #IRC字符串获取试验测试$/;"	v
+minidom	Host.py	/^import xml.dom.minidom$/;"	i
+minidom	Parser.py	/^import xml.dom.minidom$/;"	i
+minidom	Service.py	/^import xml.dom.minidom$/;"	i
+minidom	Session.py	/^import xml.dom.minidom$/;"	i
+myapp	MultiIRCFound.py	/^    myapp = MyForm()$/;"	v	class:MyForm
+nmap	MultiIRCFound.py	/^import Parser           #nmap XML解析$/;"	i
+nmapParse	MultiIRCFound.py	/^    def nmapParse(self):        #nmap 文件解析：直接提取IP和port，对于$/;"	m	class:MyForm	access:public
+nmap_process	MultiIRCFound.py	/^    def nmap_process(self):$/;"	m	class:MyForm	access:public
+node	Service.py	/^	node = dom.getElementsByTagName('service')[0]$/;"	v
+os	nmapParse.py	/^import sys,string,time,struct,os$/;"	i
+parser	Parser.py	/^	parser = Parser( 'i.xml' )$/;"	v	class:Parser
+portParse	MultiIRCFound.py	/^    def portParse(self):$/;"	m	class:MyForm	access:public
+pprint	Host.py	/^import pprint$/;"	i
+pprint	MultiIRCFound.py	/^import sys,string,time,struct,pprint$/;"	i
+pprint	Parser.py	/^import pprint$/;"	i
+printEmit	IRCFound.py	/^    def printEmit(self,str):$/;"	m	class:Worker	access:public
+printEmitOK	IRCFound.py	/^    def printEmitOK(self,str):$/;"	m	class:Worker	access:public
+printEmitOK	nmapParse.py	/^    def printEmitOK(self,str):$/;"	m	class:NmapParse	access:public
+printmsg	MultiIRCFound.py	/^    def printmsg(self,str):             #子线程中的打印，有调试开关功能$/;"	m	class:MyForm	access:public
+printmsgOld	MultiIRCFound.py	/^    def printmsgOld(self,str):          #主线程中的打印，无调试开关功能$/;"	m	class:MyForm	access:public
+printmsgUni	MultiIRCFound.py	/^    def printmsgUni(self,str):          #子线程中的打印，有调试开关功能$/;"	m	class:MyForm	access:public
+render	IRCFound.py	/^    def render(self,ipAllList,n):$/;"	m	class:Worker	access:public
+render	nmapParse.py	/^    def render(self,ip):$/;"	m	class:NmapParse	access:public
+retranslateUi	irc_graphic.py	/^    def retranslateUi(self, IRC):$/;"	m	class:Ui_IRC	access:public
+run	IRCFound.py	/^    def run(self):$/;"	m	class:Worker	access:public
+run	nmapParse.py	/^    def run(self):$/;"	m	class:NmapParse	access:public
+s	Host.py	/^	s = h.get_service( 'tcp', '80' )$/;"	v	class:Host
+s	Service.py	/^	s = Service( node )$/;"	v
+s	Session.py	/^	s = Session( MySession )$/;"	v
+savework	MultiIRCFound.py	/^    def savework(self):$/;"	m	class:MyForm	access:public
+service_nodes	Service.py	/^	service_nodes = dom.getElementsByTagName('service')$/;"	v
+session	Parser.py	/^	session = parser.get_session()$/;"	v	class:Parser
+setdefaultproxy	socks.py	/^def setdefaultproxy(proxytype=None,addr=None,port=None,rdns=True,username=None,password=None):$/;"	f	access:public
+setproxy	socks.py	/^	def setproxy(self,proxytype=None,addr=None,port=None,rdns=True,username=None,password=None):$/;"	m	class:socksocket	access:public
+setupUi	irc_graphic.py	/^    def setupUi(self, IRC):$/;"	m	class:Ui_IRC	access:public
+showmsg	MultiIRCFound.py	/^    def showmsg(self,flag,ipaddr,port):$/;"	m	class:MyForm	access:public
+socket	IRCFound.py	/^import socks,socket     #socksIPY代理设置$/;"	i
+socket	MultiIRCFound.py	/^import socks,socket     #socksIPY代理设置$/;"	i
+socket	socks.py	/^import socket$/;"	i
+socks	IRCFound.py	/^import socks,socket     #socksIPY代理设置$/;"	i
+socks	MultiIRCFound.py	/^import socks,socket     #socksIPY代理设置$/;"	i
+socksIPY	IRCFound.py	/^import socks,socket     #socksIPY代理设置$/;"	i
+socksIPY	MultiIRCFound.py	/^import socks,socket     #socksIPY代理设置$/;"	i
+socksocket	socks.py	/^class socksocket(socket.socket):$/;"	c	inherits:socket.socket
+startwork	MultiIRCFound.py	/^    def startwork(self):$/;"	m	class:MyForm	access:public
+string	IRCFound.py	/^import sys,string,time,struct$/;"	i
+string	MultiIRCFound.py	/^import sys,string,time,struct,pprint$/;"	i
+string	nmapParse.py	/^import sys,string,time,struct,os$/;"	i
+struct	IRCFound.py	/^import sys,string,time,struct$/;"	i
+struct	MultiIRCFound.py	/^import sys,string,time,struct,pprint$/;"	i
+struct	nmapParse.py	/^import sys,string,time,struct,os$/;"	i
+struct	socks.py	/^import struct$/;"	i
+sys	Host.py	/^import sys$/;"	i
+sys	IRCFound.py	/^import sys,string,time,struct$/;"	i
+sys	MultiIRCFound.py	/^import sys,string,time,struct,pprint$/;"	i
+sys	Parser.py	/^import sys$/;"	i
+sys	Service.py	/^import sys$/;"	i
+sys	Session.py	/^import sys$/;"	i
+sys	nmapParse.py	/^import sys,string,time,struct,os$/;"	i
+time	IRCFound.py	/^import sys,string,time,struct$/;"	i
+time	MultiIRCFound.py	/^import sys,string,time,struct,pprint$/;"	i
+time	nmapParse.py	/^import sys,string,time,struct,os$/;"	i
+updataAll	MultiIRCFound.py	/^    def updataAll(self):$/;"	m	class:MyForm	access:public
+updateUi	MultiIRCFound.py	/^    def updateUi(self):$/;"	m	class:MyForm	access:public
+waitwork	MultiIRCFound.py	/^    def waitwork(self):$/;"	m	class:MyForm	access:public
+xml	Host.py	/^import xml.dom.minidom$/;"	i
+xml	Parser.py	/^import xml.dom.minidom$/;"	i
+xml	Service.py	/^import xml.dom.minidom$/;"	i
+xml	Session.py	/^import xml.dom.minidom$/;"	i
